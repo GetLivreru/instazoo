@@ -78,6 +78,10 @@ public class User implements UserDetails {
             return password;
         }
 
+        public Set<ERole> getRoles(){
+                return role;
+        }
+
         @Override
         public boolean isAccountNonExpired() {
             return true;
@@ -94,9 +98,6 @@ public class User implements UserDetails {
         public boolean isEnabled() {
             return true;
         }
-
-
-
 
 
 }
