@@ -1,6 +1,8 @@
 package com.example.demo.payload.request;
 
 
+import com.example.demo.annotations.PasswordMatches;
+import com.example.demo.annotations.ValidEmail;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
@@ -8,11 +10,12 @@ import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 @Data
+@PasswordMatches
 public class SignupRequest {
 
     @Email(message = "It should have email format")
     @NotBlank(message = "User email is required")
-    // Valid email
+    @ValidEmail
     private String email;
     @NotEmpty(message = "Please enter your name")
     private String firstname;
@@ -24,9 +27,6 @@ public class SignupRequest {
     @Size(min = 6)
     private String password;
     private String confirmPassword;
-
-
-
 
 
 
