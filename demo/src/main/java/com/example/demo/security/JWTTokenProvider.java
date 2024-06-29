@@ -33,14 +33,15 @@ public class JWTTokenProvider {
                 .addClaims(claimsMap)
                 .setIssuedAt(now)
                 .setExpiration(expiryDate)
-                .signWith(SignatureAlgorithm.HS512, SecurityConstants.SECRET.getBytes())
+                .signWith(SecurityConstants.SECRET_KEY)
                 .compact();
     }
 
     public boolean validateToken(String token) {
         try {
+
             Jwts.parserBuilder()
-                    .setSigningKey(SecurityConstants.SECRET.getBytes())
+                    .setSigningKey(SecurityConstants.SECRET_KEY)
                     .build()
                     .parseClaimsJws(token);
             return true;
@@ -52,7 +53,7 @@ public class JWTTokenProvider {
 
     public Long getUserIdFromToken(String token) {
         Claims claims = Jwts.parserBuilder()
-                .setSigningKey(SecurityConstants.SECRET.getBytes())
+                .setSigningKey(SecurityConstants.SECRET_KEY)
                 .build()
                 .parseClaimsJws(token)
                 .getBody();
