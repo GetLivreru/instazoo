@@ -1,54 +1,64 @@
 # Full-Stack Java Spring Project
 
-## Описание
+## Description
 
-Этот проект представляет собой backend часть Full-Stack веб-приложения, разработанного с использованием Java Spring и MySQL. Приложение предоставляет REST API для взаимодействия с клиентом и включает авторизацию пользователей с использованием JWT (JSON Web Token). Проект ориентирован на создание масштабируемого и безопасного веб-приложения с применением современных подходов в разработке.
+This project represents the backend part of a Full-Stack web application developed using Java Spring and MySQL. The application provides a REST API for interaction with the client side and includes user authentication using JWT (JSON Web Token). The project is focused on creating a scalable and secure web application using modern development practices.
 
-## Функциональность
+## Features
 
-- **Создание REST API**: Реализованы различные эндпоинты для взаимодействия с клиентской частью.
-- **Авторизация с использованием JWT**: Безопасная авторизация пользователей через JSON Web Token.
-- **Подключение к базе данных MySQL**: Управление данными с использованием реляционной базы данных MySQL.
-- **Валидация данных**: Валидация объектов как на серверной стороне (Java), так и на клиентской (если реализовано).
-- **Обработка ошибок**: Реализованы собственные классы ошибок и подходы к их обработке.
-- **Создание собственных аннотаций**: Использование кастомных аннотаций для упрощения и улучшения кода.
-- **Отладка**: Методы поиска и исправления ошибок и багов.
+- **REST API Creation**: Various endpoints are implemented for client interaction.
+- **JWT Authentication**: Secure user authentication using JSON Web Token.
+- **MySQL Database Integration**: Data management using the MySQL relational database.
+- **Data Validation**: Validation of objects on the server side (Java) and, if implemented, on the client side.
+- **Error Handling**: Custom error classes and approaches for handling errors are implemented.
+- **Custom Annotations**: Utilization of custom annotations to simplify and enhance the code.
+- **Debugging**: Methods for finding and fixing bugs and errors.
+- **Postman Testing**: API endpoints were tested using Postman to ensure proper functionality and response handling.
 
-## Стек технологий
+## Technology Stack
 
 - **Backend**: Java, Spring Boot
-- **База данных**: MySQL
-- **Безопасность**: Spring Security, JWT (JSON Web Token)
-- **Валидация**: Hibernate Validator
+- **Database**: MySQL
+- **Security**: Spring Security, JWT (JSON Web Token)
+- **Validation**: Hibernate Validator
+- **Testing**: Postman
 
-## Как запустить проект
+## How to Run the Project
 
-1. **Клонируйте репозиторий**:
+1. **Clone the repository**:
     ```bash
-    git clone <URL вашего репозитория>
+    git clone <URL of your repository>
     ```
-   
-2. **Настройка базы данных**:
-    - Убедитесь, что у вас установлена и запущена MySQL.
-    - Создайте базу данных для проекта.
-    - Обновите файл `application.properties` с вашими данными для доступа к базе данных.
 
-3. **Запуск приложения**:
-    - Откройте проект в вашей IDE.
-    - Соберите проект с помощью Maven или Gradle.
-    - Запустите приложение через `main` класс.
+2. **Database setup**:
+    - Ensure that MySQL is installed and running.
+    - Create a database for the project.
+    - Update the `application.properties` file with your database credentials.
 
-4. **Доступ к API**:
-    - После запуска приложения, API будет доступен по адресу `http://localhost:8080/api/`.
-   
-## Документация
+3. **Run the application**:
+    - Open the project in your IDE.
+    - Build the project using Maven or Gradle.
+    - Run the application via the `main` class.
 
-Подробная документация по API доступна в репозитории GitHub [здесь](<ссылка на документацию>).
+4. **Access the API**:
+    - After the application is running, the API will be available at `http://localhost:8080/api/`.
 
-## Авторы
+5. **Testing with Postman**:
+    - Use Postman to send requests to the API endpoints.
+    - Ensure that the responses are as expected and that the API behaves correctly.
 
-- Кайырбеков Адилет Саруарбекович
+## Documentation
 
-## Лицензия
+Detailed API documentation is available in the GitHub repository [here](<link to documentation>).
 
-Этот проект лицензирован под лицензией MIT - подробности см. в файле [LICENSE](LICENSE).
+## Authors
+
+- Kaıyrbekov Adılet Saruarbekovıch
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![image](https://github.com/user-attachments/assets/ec63b6b5-73d2-4c03-91d1-ca517a73e47e)
+![image](https://github.com/user-attachments/assets/c34379b7-188d-48e5-bef4-fac20cb6d5c8)
+![image](https://github.com/user-attachments/assets/bb3b5472-f305-4ac2-b0d7-abf8c793be4e)
+![image](https://github.com/user-attachments/assets/3fbcc9a7-f619-4fe7-9973-f287b1285dd5)
