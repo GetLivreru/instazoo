@@ -47,17 +47,11 @@ This project represents the backend part of a Full-Stack web application develop
     - Use Postman to send requests to the API endpoints.
     - Ensure that the responses are as expected and that the API behaves correctly.
 
-## Documentation
-
-Detailed API documentation is available in the GitHub repository [here](<link to documentation>).
-
 ## Authors
 
 - Kaıyrbekov Adılet Saruarbekovıch
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Screenshots
 ![image](https://github.com/user-attachments/assets/ec63b6b5-73d2-4c03-91d1-ca517a73e47e)
 ![image](https://github.com/user-attachments/assets/c34379b7-188d-48e5-bef4-fac20cb6d5c8)
 ![image](https://github.com/user-attachments/assets/bb3b5472-f305-4ac2-b0d7-abf8c793be4e)
