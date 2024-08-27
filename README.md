@@ -49,7 +49,7 @@ This project represents the backend part of a Full-Stack web application develop
 
 ## Authors
 
-- Kaıyrbekov Adılet Saruarbekovıch
+- Kaıyrbekov Adılet
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/ec63b6b5-73d2-4c03-91d1-ca517a73e47e)
